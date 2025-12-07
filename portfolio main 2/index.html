@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="block-icon"></span>
+                Portfolio
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="floating-blocks">
+                <div class="block-3d grass" style="--delay: 0s; --x: 10%; --y: 20%;"></div>
+                <div class="block-3d dirt" style="--delay: 0.5s; --x: 85%; --y: 15%;"></div>
+                <div class="block-3d stone" style="--delay: 1s; --x: 75%; --y: 70%;"></div>
+                <div class="block-3d diamond" style="--delay: 1.5s; --x: 15%; --y: 75%;"></div>
+                <div class="block-3d gold" style="--delay: 2s; --x: 50%; --y: 85%;"></div>
+                <div class="block-3d wood" style="--delay: 0.3s; --x: 90%; --y: 45%;"></div>
+                <div class="block-3d grass" style="--delay: 0.8s; --x: 5%; --y: 50%;"></div>
+                <div class="block-3d cobble" style="--delay: 1.2s; --x: 25%; --y: 10%;"></div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="profile-card">
+                <div class="profile-frame">
+                    <div class="profile-image">
+                        <img src="my ai generated image copy.jpeg" alt="Your Profile Picture">
+                    </div>
+                    <div class="profile-glow"></div>
+                </div>
+                
+                <div class="profile-info">
+                    <h1 class="hero-name">AADITRI</h1>
+                    <div class="title-wrapper">
+                        <span class="hero-title">Frontend</span>
+                        <span class="title-divider">|</span>
+                        <span class="hero-title">Dev</span>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="hero-tagline">Turning concepts into creation👾</p>
+            
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-icon">⛏️</span>
+                    <span class="hero-stat-value">2+</span>
+                    <span class="hero-stat-label">Builds</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-icon">🏆</span>
+                    <span class="hero-stat-value">-1</span>
+                    <span class="hero-stat-label">Years</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-icon">🎮</span>
+                    <span class="hero-stat-value">5+</span>
+                    <span class="hero-stat-label">Skills</span>
+                </div>
+            </div>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Builds</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-block"></span>
+                About Me
+            </h2>
+            <div class="about-content">
+                <div class="about-avatar">
+                    <div class="avatar-container">
+                        <div class="avatar-3d">
+                            <div class="avatar-face front"></div>
+                            <div class="avatar-face back"></div>
+                            <div class="avatar-face left"></div>
+                            <div class="avatar-face right"></div>
+                            <div class="avatar-face top"></div>
+                            <div class="avatar-face bottom"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Hey there!</h3>
+                    <p>I’m a first-year B.Tech CSE student exploring the world of tech and development. I’m currently building my skills in HTML, CSS, JavaScript, and I enjoy designing clean interfaces using Figma.</p>
+                    <p>I also know languages like Python and C, and I’m still exploring and practicing to get better with each project I build.
+                        I may not have experience yet, but I’m focused, curious, and excited to grow as a developer.
+                    </p>
+                    <div class="skills">
+                        <div class="skill">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar"><div class="skill-fill" style="--width: 95%"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar"><div class="skill-fill" style="--width: 80%"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">JS</span>
+                            <div class="skill-bar"><div class="skill-fill" style="--width: 90%"></div></div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Skills Loading...</span>
+                            <div class="skill-bar"><div class="skill-fill" style="--width: 85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-block"></span>
+                My Builds
+            </h2>
+            <p class="section-subtitle">Click on any build to see it in full size</p>
+            
+            <div class="project-grid">
+                <div class="project-card" data-image="https://images.unsplash.com/photo-1627856014754-2907e2355d47?w=800" data-title="Asteriod game" data-description="A simple Asteroid game using HTML, CSS, and JavaScript.">
+                    <div class="project-image" style="background-image: url(image\ copy\ 2.png)"></div>
+                    <div class="project-info">
+                        <h3>Asteriod Game</h3>
+                        <p>Check your aiming and shooting skills!</p>
+                        <div class="project-tags">
+                            <span class="tag">Game</span>
+                            <span class="tag">Shooting</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card" data-image="image copy.png" data-title="Loading..." data-description="come back later!">
+                    <div class="project-image" style="background-image: url(image\ copy.png)"></div>
+                    <div class="project-info">
+                        <h3>Work in progress</h3>
+                        <p>Loading...</p>
+                        <div class="project-tags">
+                            <span class="tag">...</span>
+                            <span class="tag">...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-block"></span>
+                Get In Touch
+            </h2>
+            <p class="section-subtitle">Always open to new opportunities. Let's connect!!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon discord"></div>
+                        <div>
+                            <h4>Discord</h4>
+                            <p>caetty_01</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon youtube"></div>
+                        <div>
+                            <h4>X</h4>
+                            <p>caetty_01</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon twitter"></div>
+                        <div>
+                            <h4>Telegram</h4>
+                            <p>caetty_01</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about yourself..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Aaditri. All Rights Reserved.</p>
+                <p class="footer-note">Not relation to anything.😛</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-image">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
